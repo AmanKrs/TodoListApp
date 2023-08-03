@@ -1,0 +1,33 @@
+.allList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.singleTodo {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: rgb(87, 177, 102);
+  padding: 10px 20px;
+  display: flex;
+  width: 300px;
+  height:fit-content;
+  align-items: center;
+}
+.todoText {
+  text-align: start;
+  flex: 1;
+}
+.baction{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 69px;
+}
+.button{
+  width: auto;
+  
+}
+.del{
+  background-color: red !important;
+}
